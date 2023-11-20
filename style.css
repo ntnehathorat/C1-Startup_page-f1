@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    height: 86px;
+    background: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 30px;
+}
+
+nav>h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav>div>a {
+    color: #000;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+
+#about-us {
+    display: flex;
+    width: 95vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#about-us-image {
+    width: 697px;
+    height: 482px;
+}
+
+#about-us-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-us-main-container>h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#about-us-main-container>p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#about-us-main-container>button {
+    width: 323px;
+    height: 66px;
+    border-radius: 500px;
+    background: #FCAF02;
+    border: none;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#form {
+    margin-top: 70px;
+    width: 95vw;
+    margin: auto;
+}
+
+#form>h2 {
+    margin-top: 100px;
+    color: #FCAF02;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 82px;
+    background-color: black;
+    color: #FCAF02;
+    padding: 20px;
+    width: 100%;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    margin-top: 40px;
+}
+
+::placeholder {
+    color: #FCAF02;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+
+form>button {
+    width: 325px;
+    height: 82px;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    background: #FCAF02;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+}
+
+table{
+    border: 2px solid  #FCAF02;
+    width: 95vw;
+    margin: auto;
+    margin-top: 70px;
+    border-collapse: collapse;
+    color: #FCAF02;
+    margin-bottom: 50px;
+}
+
+th{
+    border: 2px solid  #FCAF02;
+    padding: 20px;
+    text-align: left;
+    font-size: 28px;
+}
+
+td{
+    border-right: 2px solid  #FCAF02;
+    padding: 20px;
+    text-align: left;
+    font-size: 28px;
+}
+
+tfoot>tr{
+    background-color: #FCAF02;
+    color: #000;
+}
+
+tfoot>tr>td{
+    border-right: 2px solid black;
+
+}
